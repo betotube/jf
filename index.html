@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Site made with Mobirise Website Builder v4.0.17, https://mobirise.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v4.0.17, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/logotipo-rgb-2000x2048.png" type="image/x-icon">
+    <meta name="description" content="A JF Automotores é uma concessionária completa que está sempre ao seu lado e será um prazer recebê-los aqui. Aqui tem tudo para você comprar seu Ford 0km com tranquilidade. Além de toda assessoria, você conta com a tradição de quem entende de Ford com um pós-venda totalmente eficiente.">
+    <title>Novo Ford EcoSport 2018 | JF Automotores</title>
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i">
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/mobirise-gallery/style.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+
+
+    <!-- build:css(./web) static/css/main.min.css -->
+    <link rel="stylesheet" href="static/css/main8a25.css?v=1.13">
+
+</head>
+
+<body>
+    <section class="menu cid-qqGBKSrPF8" once="menu" id="menu2-i" data-rv-view="790">
+
+
+
+        <nav class="navbar navbar-dropdown align-items-center navbar-toggleable-sm bg-color transparent">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="menu-logo">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <a href="http://jfautomotores.com.br/site">
+                            <img src="assets/images/logotipo-rgb-2000x2048.png" alt="Mobirise" title="" media-simple="true" style="height: 8rem;">
+                        </a>
+                    </span>
+
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="navbar-buttons mbr-section-btn">
+                    <a class="btn btn-sm btn-primary display-4" href="tel:8821017575">
+                        <span class="btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn">
+                        </span>
+                        (88) 2101-7575</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="engine"><a href="https://mobirise.co/p">bootstrap menu</a></section>
+    <section class="cid-qqGxLmiJel mbr-fullscreen" id="header2-e" data-bg-video="https://www.youtube.com/watch?v=ffr47y_PEm0&feature=youtu.be" data-rv-view="680">
+
+
+
+
+
+        <div align="right" class="container all">
+            <div  class="media-container-column mbr-white col-md-10 offset-md-1">
+                <h1 align="center" style="background-color:rgba(0,0,0,0.5);" class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">NOVO FORD KA FREESTYLE 2019</h1>
+                <!--            <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">Exclusividade Inimaginável<br>na JF Automotores.</h3>-->
+
+
+            </div>
+        </div>
+        <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+            <a href="#next">
+                <i class="mbri-down mbr-iconfont"></i>
+            </a>
+        </div>
+    </section>
+
+    <div class="container all" style="padding-right: 0;padding-left: 0">
+
+
+
+
+
+    </div>
+
+
+
+    <div class="fordWelcome" style="display: none;">
+        <div class="fordWelcome__content">
+            <h1 class="fordWelcome__title">Explore o Novo<br> Ford KA Freestyle 2019</h1>
+
+        </div>
+    </div>
+    <script>
+        var firstTime = true;
+            var elLoading = document.querySelector('.fordLoading');
+            var elWelcome = document.querySelector('.fordWelcome');
+
+            var hideSign = function() {
+                adjust360Position();
+
+                elWelcome.style.opacity = 0;
+                setTimeout(function() {
+                    elWelcome.parentNode.removeChild(elWelcome);
+                    //document.querySelector('html').removeAttribute('style');
+                }, 310);
+            }
+
+            var showSign = function() {
+                if (!firstTime) return;
+
+                firstTime = false;
+                elWelcome.style.display = 'flex';
+
+                var timeout = setTimeout(hideSign, 2000);
+                elWelcome.addEventListener('click', function() {
+                    clearTimeout(timeout);
+                    hideSign();
+                });
+            }
+
+            var pageLoad = function() {
+                var isMobile = parseInt(document.body.clientWidth) < 1024;
+
+                // dispatch resize
+                var evt = document.createEvent('UIEvents');
+                evt.initUIEvent('resize', true, false, window, 0);
+                window.dispatchEvent(evt);
+
+                elLoading.style.opacity = 0;
+
+                // iOS video fix
+                document.querySelector('.content__360__exterior').classList.remove('active');
+
+                if (!isMobile && window.location.hash === '') elWelcome.style.display = 'flex';
+
+                setTimeout(function() {
+                    elLoading.parentNode.removeChild(elLoading);
+                    if (isMobile || window.location.hash !== '') return;
+
+                    showSign();
+                }, 310);
+            }
+
+            //requestAnimationFrame(pageLoad);
+
+            window.addEventListener('load', pageLoad);
+        </script>
+
+    <section class="fordheader" style="display:none">
+        <div class="row small-collapse align-middle">
+            <div class="small-12 text-center large-text-left large-4 column">
+                <a class="fordheader__fordlogo" href="#explore"><img src="static/images/ford-go-further.png" alt="Ford Go Further"></a>
+                <button class="hide-for-large fordheader__mobilemenu">Open menu</button>
+            </div>
+
+            <div class="small-12 large-8 column">
+                <nav class="fordheader__menu menu align-right">
+                    <li>
+                        <a href="#explore"></a>
+                    </li>
+                    <li>
+                        <a href="#conheca"></a>
+                    </li>
+                    <li>
+                        <a href="#galeria"></a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- scroll link -->
+
+    </div>
+
+    <!-- tooltip holder -->
+
+
+
+
+
+    </section>
+
+    <a name="conheca"></a>
+    <a name="conectividade"></a>
+    <section class="content__conectividade fordHighlight collapse row">
+        <div class="small-12 xlarge-3 xlarge-order-2 column">
+            <h1 style="color:#964b00;" class="fordHighlight__category">Conectividade</h1>
+            <h2 class="fordHighlight__title">Interação intuitiva com seu Ka</h2>
+
+            <div class="fordHighlight__gallery">
+                <div class="fordHighlight__gallery__wrapper">
+                    <div class="fordHighlight__gallery__slider">
+                        <div><img src="static/images/sync/waze.png" srcset="static/images/sync/apps@2x.jpg 2x" alt=""></div>
+                        <div><img src="static/images/sync/apps.png" srcset="static/images/sync/navigator@2x.jpg 2x" alt=""></div>
+                    </div>
+                    <div class="fordHighlight__gallery__mask"></div>
+                </div>
+
+                <p class="fordHighlight__gallery__caption"></p>
+
+                <div class="fordHighlight__gallery__controls show-for-large">
+                    <button class="siema-prev circle_button circle_button--prev">prev</button>
+                    <button class="siema-next circle_button circle_button--next">next</button>
+                </div>
+
+                <div class="fordHighlight__gallery__bullets hide-for-large">
+                    <button class="siema-bullet bullet_button" onClick="siema['conectividade'].goTo(0)">01</button>
+                    <button class="siema-bullet bullet_button" onClick="siema['conectividade'].goTo(1)">02</button>
+                </div>
+            </div>
+
+
+            <p class="fordHighlight__description">SYNC®3, o inovador e exclusivo Sistema Multimídia da Ford.
+
+                Usando a tela de 6.5” sensível ao toque, você controla seu telefone e as funções de entretenimento, e também conta com conexão Bluetooth®, conectividade com Android Auto e Apple CarPlay, além das funcionalidades e facilidades do AppLink™, Comandos de Voz e compatibilidade com o Waze para facilitar sua vida dentro do Ka.</p>
+        </div>
+
+        <div class="small-12 xlarge-9 xlarge-order-1 column">
+            <img src="static/images/conectividade.jpg" alt="" class="fordHighlight__image">
+
+            <ul class="fordHighlight__features">
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/sync2.svg" alt="">
+                    </span> Sync&reg; 3 <br> com tela Flutuante
+                </li>
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/waze.svg" alt="">
+                    </span> Waze
+                </li>
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/usb.svg" alt="">
+                    </span> 2 Entradas USB<br> Iluminadas
+                </li>
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/voice.svg" alt="">
+                    </span> Comandos de Voz
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+
+    <a name="versatilidade"></a>
+    <section class="content__versatilidade fordHighlight row">
+        <div class="small-12 large-4 xlarge-3 column">
+            <h1 style="color:#964b00;"  class="fordHighlight__category">Espaço</h1>
+            <h2 class="fordHighlight__title">Amplo espaço interno</h2>
+
+            <div class="fordHighlight__gallery">
+                <div class="fordHighlight__gallery__slider">
+                    <div><img src="static/images/versatilidade/02.jpg" srcset="static/images/versatilidade/02@2x.jpg 2x" alt="Porta Objetos"></div>
+                    <div><img src="static/images/versatilidade/01.jpg" srcset="static/images/versatilidade/01@2x.jpg 2x" alt="Melhor aproveitamento de espaço"></div>
+                </div>
+
+                <p class="fordHighlight__gallery__caption"></p>
+
+                <div class="fordHighlight__gallery__controls show-for-large">
+                    <button class="siema-prev circle_button circle_button--prev">prev</button>
+                    <button class="siema-next circle_button circle_button--next">next</button>
+                </div>
+
+                <div class="fordHighlight__gallery__bullets hide-for-large">
+                    <button class="siema-bullet bullet_button" onClick="siema['versatilidade'].goTo(0)">01</button>
+                    <button class="siema-bullet bullet_button" onClick="siema['versatilidade'].goTo(1)">02</button>
+                </div>
+            </div>
+
+            <p class="fordHighlight__description">O amplo espaço interno e o acesso fácil aos comandos proporcionam à condução uma experiência confortável e intuitiva para todos os ocupantes. Além disso, o novo Ka Freestyle é completo em itens de conforto e conta com acabamento interno superior, impressionando a todos que estão dentro de um.</p>
+
+<!--
+            <ul class="fordHighlight__features">
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/cargo.svg" alt="">
+                    </span> Assoalho <br> inteligente do <br> porta-malas
+                </li>
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/skywindow.svg" alt="">
+                    </span> Teto Solar
+                </li>
+            </ul>
+-->
+        </div>
+
+        <div class="small-12 large-8 xlarge-9 column text-right">
+            <img src="static/images/versatilidade.jpg" alt="" class="fordHighlight__image">
+            <img src="static/images/ka-back.png" alt="" class="fordHighlight__parts fordHighlight__parts--car-back">
+        </div>
+
+
+    </section>
+
+    <a name="seguranca"></a>
+    <section class="content__seguranca fordHighlight row">
+        <div class="small-12 large-5 large-order-2 xlarge-4 column">
+            <h1 style="color:#964b00;" class="fordHighlight__category">Segurança</h1>
+            <h2 class="fordHighlight__title">Proteção que surpreendeu a categoria</h2>
+
+            <div class="fordHighlight__gallery">
+                <div class="fordHighlight__gallery__slider">
+                    <div><img src="static/images/seguranca/camera%20de%20re.jpg" srcset="static/images/seguranca/01@2x.jpg 2x" alt=" Câmera de Ré"></div>
+                    <div><img src="static/images/seguranca/airbags.jpg" srcset="static/images/seguranca/03@2x.jpg 2x" alt=" 6 Air bags"></div>
+                </div>
+
+                <p class="fordHighlight__gallery__caption"></p>
+
+                <div class="fordHighlight__gallery__controls show-for-large">
+                    <button class="siema-prev circle_button circle_button--prev">prev</button>
+                    <button class="siema-next circle_button circle_button--next">next</button>
+                </div>
+
+                <div class="fordHighlight__gallery__bullets hide-for-large">
+                    <button class="siema-bullet bullet_button" onClick="siema['seguranca'].goTo(0)">01</button>
+                    <button class="siema-bullet bullet_button" onClick="siema['seguranca'].goTo(1)">02</button>
+                </div>
+            </div>
+
+            <p class="fordHighlight__description">Ainda mais seguro, o Ka vem com novidades que o diferenciam. O Ka recebeu reforços estruturais, e agora conta com 6 Air Bags. Explore todos os atributos pensados para a sua proteção.</p>
+
+            <ul class="fordHighlight__features">
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/airbags.svg" alt="">
+                    </span> 6 Air bags
+                </li>
+                <li class="fordHighlight__features__feature">
+                    <span class="fordHighlight__features__feature__icon">
+                        <img src="static/images/icons/advancetrac.svg" alt="">
+                    </span> Advancetrac&reg; <br> com Controle de <br>Estabilidade e Tração
+                </li>
+            </ul>
+        </div>
+
+        <div class="small-12 large-7 large-order-1 xlarge-6 column">
+            <img src="static/images/seguranca.jpg" alt="" class="fordHighlight__image show-for-large">
+            <img src="static/images/ecosport-front.png" alt="" class="fordHighlight__parts fordHighlight__parts--front">
+        </div>
+    </section>
+
+    <a name="eficiencia"></a>
+    <section class="content__eficiencia fordHighlight row">
+        <div class="small-12 large-5 xlarge-4 column">
+            <h1 style="color:#964b00;" class="fordHighlight__category">Perfomance</h1>
+            <h2 class="fordHighlight__title">Potência com eficiência</h2>
+
+            <div class="fordHighlight__gallery">
+                <div class="fordHighlight__gallery__slider">
+                    <div><img src="static/images/eficiencia/02.jpg" srcset="static/images/eficiencia/02@2x.jpg 2x" alt="Nova motorização"></div>
+                </div>
+
+                <p class="fordHighlight__gallery__caption">Faróis de Neblina</p>
+
+            </div>
+
+            <p class="fordHighlight__description">Carro disponível com os motores 1.0 e 1.5 mais potentes da categoria1. O novo Ka chega com motor 1.5 de 3 cilindros com 136 cv e 158N m de torque.  Mais força na arrancada e potência para levar a família ou carregar as malas na hora de viajar, sem esquecer da economia de combustível. E o motor já consagrado e reconhecido 1.0 de 3 cilindros com 85cv , que além de oferecer potência, oferece muita economia de combustível. Escolha o carro ideal para você, sabendo que no Ka, a potência anda sempre junto da eficiência. O novo Ka traz agora opção de transmissão automática de 6 velocidades, a mesma transmissão oferecida no novo EcoSport, que traz conversor de torque integrado de alta eficiência.
+                <p>
+
+                    <ul class="fordHighlight__features">
+                    </ul>
+        </div>
+
+        <div class="small-12 large-7 xlarge-8 column text-right">
+            <img src="static/images/eficiencia.png" alt="" class="fordHighlight__image">
+            <img src="static/images/motor-05.png" alt="" class="fordHighlight__parts fordHighlight__parts--motor">
+        </div>
+    </section>
+
+    <a name="conforto"></a>
+    <section class="content__conforto fordHighlight row">
+        <div class="small-12 large-6 large-order-2 xlarge-4 xxlarge-3 column">
+            <h1 style="color:#964b00;" class="fordHighlight__category">Conforto</h1>
+            <h2 class="fordHighlight__title">Piloto Automático</h2>
+
+            <div class="fordHighlight__gallery">
+                <div class="fordHighlight__gallery__slider">
+                    <div><img src="static/images/conforto/01.jpg" srcset="static/images/conforto/01@2x.jpg 2x" alt="Indicador de Troca de Marchas"></div>
+                    <div><img src="static/images/conforto/03.jpg" srcset="static/images/conforto/03@2x.jpg 2x" alt="Bancos em couro"></div>
+                    <div><img src="static/images/conforto/04.jpg" srcset="static/images/conforto/04@2x.jpg 2x" alt="Ford Power – Partida sem Chave"></div>
+                </div>
+
+                <p class="fordHighlight__gallery__caption"></p>
+
+                <div class="fordHighlight__gallery__controls show-for-large">
+                    <button class="siema-prev circle_button circle_button--prev">prev</button>
+                    <button class="siema-next circle_button circle_button--next">next</button>
+                </div>
+
+                <div class="fordHighlight__gallery__bullets hide-for-large">
+                    <button class="siema-bullet bullet_button" onClick="siema['conforto'].goTo(0)">01</button>
+                    <button class="siema-bullet bullet_button" onClick="siema['conforto'].goTo(2)">03</button>
+                    <button class="siema-bullet bullet_button" onClick="siema['conforto'].goTo(3)">04</button>
+                </div>
+            </div>
+
+            <p class="fordHighlight__description">Com a tecnologia do Piloto Automático, você mantém a velocidade sem nem precisar pisar no acelerador.
+                <p>
+
+                    <p class="fordHighlight__description fordHighlight__description--last">Além de conseguir controlar a velocidade a todo tempo.</p>
+
+                    <ul class="fordHighlight__features">
+                        <li class="fordHighlight__features__feature">
+                            <span class="fordHighlight__features__feature__icon">
+                                <img src="static/images/icons/seat.svg" alt="">
+                            </span> Bancos parcialmente<br> em couro 
+                        </li>
+                        <li class="fordHighlight__features__feature">
+                            <span class="fordHighlight__features__feature__icon">
+                                <img src="static/images/icons/power.svg" alt="">
+                            </span> Ford Power <br> Partida sem Chave
+                        </li>
+                        <li class="fordHighlight__features__feature">
+                            <span class="fordHighlight__features__feature__icon">
+                                <img src="static/images/icons/steering-wheel.svg" alt="">
+                            </span> Direção <br> Elétrica
+                        </li>
+                    </ul>
+        </div>
+
+        <div class="small-12 large-6 xlarge-7 large-order-1 column">
+            <img src="static/images/conforto.jpg" alt="" class="fordHighlight__image show-for-large">
+        </div>
+    </section>
+
+    <a name="indique"></a>
+    <section class="content__indique row align-center">
+        <div class="content__indique__step1 is-active" style="display: none;">
+            <h3 class="content__indique__title" aria-hidden="true">Indique um amigo para conhecer o Novo EcoSport</h3>
+            <button class="content__indique__openform rounded_button">Indicar amigo</button>
+        </div>
+
+        <div class="content__indique__step2 small-12 large-7 column">
+            <h3 class="content__indique__title">Indique um amigo para conhecer o Novo EcoSport</h3>
+
+            <form class="content__indique__form row is-collapse-child" novalidate>
+                <div class="content__indique__form__group small-12 large-5">
+                    <label class="content__indique__form__label float_label" for="app_indique_name">Nome Completo</label>
+                    <input type="text" id="app_indique_name" name="friend[name]" required="required" class="content__indique__form__input form-control" placeholder="Nome Completo">
+
+                    <span class="content__indique__form__error form-error "></span>
+                </div>
+
+                <div class="content__indique__group small-12 large-5 large-offset-1 large-text-right">
+                    <label class="content__indique__form__label float_label" for="app_indique_email">E-mail</label>
+                    <input type="email" id="app_indique_email" name="friend[email]" required="required" class="content__indique__form__input form-control" placeholder="E-mail">
+
+                    <span class="content__indique__form__error form-error "></span>
+
+                    <button class="content__indique__form__submit rounded_button">Enviar</button>
+                </div>
+            </form>
+
+            <button class="content__indique__close">X</button>
+        </div>
+    </section>
+
+
+
+
+    </section>
+
+    <section class="content__social">
+        <div class="row align-middle">
+            <div class="large-6 column"></div>
+            <div class="large-6 column text-right">
+                <a class="fordfooter__fordlogo" href="https://www.ford.com.br/?intcmp=hotsite|logo-ford|pre-launch-ecosport|footer|site-ford" onClick="ga( 'send' , 'event' , 'Footer', 'Logo Ford', 'Site Ford')" target="_blank">
+                    <img src="static/images/ford-go-further-ft.png" alt="Ford Go Further">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    </div>
+
+    <!-- build:js(./web) static/js/vendor.min.js -->
+    <script src="static/js/vendor/polyfill.js"></script>
+    <script src="static/js/vendor/atomic.js"></script>
+    <script src="static/js/vendor/vanilla-masker.js"></script>
+    <script src="static/js/vendor/valida-cpf.js"></script>
+    <script src="static/js/vendor/float-label.js"></script>
+    <script src="static/js/vendor/smooth-scroll.js"></script>
+    <script src="static/js/vendor/siema.min.js"></script>
+    <!-- endbuild -->
+
+    <script src="static/js/jogwheel.waypoints8a25.js?v=1.13"></script>
+    <script src="static/js/jogwheel8a25.js?v=1.13"></script>
+    <script src="static/js/resize-jogwheel-overlays8a25.js?v=1.13"></script>
+
+    <script src="static/js/main8a25.js?v=1.13"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.1/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.1/webcomponents-lite.js"></script>
+
+    <script src="static/js/cube-loader8a25.js?v=1.13"></script>
+
+
+
+
+    <div class="container all" style="padding-right: 0;padding-left: 0">
+        <!-- footer -->
+
+
+    </div>
+
+
+</body>
+
+<section class="mbr-gallery mbr-slider-carousel cid-qqGyUlDI6B" id="gallery3-h" data-rv-view="685">
+
+
+
+    <div>
+        <div>
+            <!-- Filter -->
+            <!-- Gallery -->
+            <div class="mbr-gallery-row">
+                <div class="mbr-gallery-layout-default">
+                    <div>
+                        <div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="0" data-toggle="modal"><img src="assets/images/1ex.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="1" data-toggle="modal"><img src="assets/images/2ex.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="2" data-toggle="modal"><img src="assets/images/3ex.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="3" data-toggle="modal"><img src="assets/images/4ex.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="4" data-toggle="modal"><img src="assets/images/5ex.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="5" data-toggle="modal"><img src="assets/images/6ex.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="6" data-toggle="modal"><img src="assets/images/7ex.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="7" data-toggle="modal"><img src="assets/images/8ex.jpg"    alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="8" data-toggle="modal"><img src="assets/images/9in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="9" data-toggle="modal"><img src="assets/images/10in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="10" data-toggle="modal"><img src="assets/images/11in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="11" data-toggle="modal"><img src="assets/images/12in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="12" data-toggle="modal"><img src="assets/images/13in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="13" data-toggle="modal"><img src="assets/images/14in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="14" data-toggle="modal"><img src="assets/images/15in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="15" data-toggle="modal"><img src="assets/images/16in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="16" data-toggle="modal"><img src="assets/images/17in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="17" data-toggle="modal"><img src="assets/images/18in1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="18" data-toggle="modal"><img src="assets/images/19ex1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="19" data-toggle="modal"><img src="assets/images/20ex1.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="20" data-toggle="modal"><img src="assets/images/interior-features-10-sync-conect-sm-400x245-400x245.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="21" data-toggle="modal"><img src="assets/images/interior-features-12-interior-sm-400x245-400x245.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="22" data-toggle="modal"><img src="assets/images/interior-features-13-tetosolar-sm-400x245-400x245.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                            <div class="mbr-gallery-item mbr-gallery-item--pNaN" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-h" data-slide-to="23" data-toggle="modal"><img src="assets/images/interior-features-14-bancosemcouro-sm-400x245-400x245.jpg" alt=""><span class="icon-focus"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div><!-- Lightbox -->
+            <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery3-h">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="carousel-inner">
+                                <div class="carousel-item"><img src="assets/images/1ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/2ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/3ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/4ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/5ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/6ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/7ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/8ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/9in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/10in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/11in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/12in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/13in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/14in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/15in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/16in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/17in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/18in2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/19ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/20ex2.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/interior-features-10-sync-conect-sm-400x245.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/interior-features-12-interior-sm-400x245.jpg" alt=""></div>
+                                <div class="carousel-item"><img src="assets/images/interior-features-13-tetosolar-sm-400x245.jpg" alt=""></div>
+                                <div class="carousel-item active"><img src="assets/images/interior-features-14-bancosemcouro-sm-400x245.jpg" alt=""></div>
+                            </div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery3-h"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery3-h"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section info1 cid-qr43vBruND" id="info1-k" data-rv-view="784">
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="media-container-column title col-12 col-lg-7 col-md-6 offset-md-1">
+                <h3 class="mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style display-5">VEJA MAIS DETALHES NO NOSSO SITE</h3>
+                <h2 class="align-left mbr-bold mbr-fonts-style display-2">CONTINUE NAVEGANDO</h2>
+            </div>
+            <div class="media-container-column col-12 col-lg-3 col-md-4">
+                <div class="mbr-section-btn align-right py-4">
+                    <a class="btn btn-primary display-4" href="https://www.jfautomotores.com.br/site"><span class="mbri-right mbr-iconfont mbr-iconfont-btn"></span>CONTINUAR PARA O SITE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-qqGxLmKKWg" id="footer1-f" data-rv-view="787">
+
+
+
+
+
+    <div class="container">
+        <div class="media-container-row content text-white">
+            <div class="col-12 col-md-3">
+                <div class="media-wrap">
+                    <a href="http://jfautomotores.com.br/site">
+                        <img src="assets/images/logotipo-rgb-2000x2048.png" alt="Mobirise" title="" media-simple="true">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">Faça uma visita</h5>
+                <p class="mbr-text">Av. Padre Cícero, 4309&nbsp;<br>São José - Juazeiro do Norte/CE</p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Entre em contato</h5>
+                <p class="mbr-text">
+                    Email: jf@jfautomotores.com.br<br>Fone: (88) 2101-7575<br><br>Whatsapp:<br>Pós-Vendas<br>(88) 99653.2244<br>Vendas<br> (88) 99654.2020<br>Peças<br>(88) 99976.1100</p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    JF Automotores</h5>
+                <p class="mbr-text">No nosso portfólio está contemplada a venda de veículos novos, peças e acessórios originais e assistência técnica especializada da marca Ford.</p>
+            </div>
+        </div>
+        <div class="footer-lower">
+            <div class="media-container-row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="media-container-row mbr-white">
+                <div class="col-sm-6 copyright">
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        © Copyright 2018 JF Automotores - Desenvolvido por Pixel Soluções</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-list align-right">
+                        <div class="soc-item">
+                            <a href="https://instagram.com/jfautomotorescariri" target="_blank">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon" media-simple="true"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.facebook.com/JFAutomotoresCariri/" target="_blank">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" media-simple="true"></span>
+                            </a>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+<script src="assets/tether/tether.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js"></script>
+<script src="assets/smooth-scroll/smooth-scroll.js"></script>
+<script src="assets/masonry/masonry.pkgd.min.js"></script>
+<script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+<script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
+<script src="assets/dropdown/js/script.min.js"></script>
+<script src="assets/jquery-mb-vimeo_player/jquery.mb.vimeo_player.js"></script>
+<script src="assets/theme/js/script.js"></script>
+<script src="assets/mobirise-gallery/player.min.js"></script>
+<script src="assets/mobirise-gallery/script.js"></script>
+
+
+</body>
+
+</html>
